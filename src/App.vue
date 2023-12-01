@@ -1,27 +1,28 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <main class="">
+    <HeaderP/>
+    <Main/>
+  </main>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import HelloWorld from './components/HelloWorld.vue';
+import HeaderP from './components/Header.vue';
+import Main from './components/Main.vue'
 
 export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld
-  }
+    HeaderP,
+    Main,
+  },
 });
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  *{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+  }
 </style>
