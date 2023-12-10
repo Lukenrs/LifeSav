@@ -2,7 +2,7 @@
    <footer class="c footer">
   <div class="content has-text-centered">
     <p>
-      Todos os direitos reservados UniSaver@2023
+      Todos os direitos reservados LifeSaver@2023
     </p>
   </div>
 </footer>

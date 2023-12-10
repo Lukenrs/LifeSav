@@ -24,7 +24,7 @@
           </article>
           <article class="message is-info">
             <div class="message-header">
-              <p>Quanto tempo demoro pra doar sangue?</p>
+              <p>Posso doar sangue gripado?</p>
             </div>
             <div class="message-body">
               Se você estiver doente, com febre ou infecções ativas, é melhor adiar a doação até estar completamente
