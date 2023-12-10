@@ -1,20 +1,21 @@
 <template>
-  <main class="">
     <HeaderP/>
     <Main/>
-  </main>
+    <Footer/>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
 import HeaderP from './components/Header.vue';
 import Main from './components/Main.vue'
-
+import Footer from './components/Footer.vue';
 export default defineComponent({
   name: 'App',
   components: {
     HeaderP,
     Main,
+    Footer,
+    
   },
 });
 </script>

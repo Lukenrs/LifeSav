@@ -23,11 +23,6 @@ export default defineComponent({
 });
 </script>
 <style>
-    .b{
-        height: 100%;
-        width:100%;
-        background-color: red;
-    }
     .a{background-color: #FAFAFA;}
 
 </style>
